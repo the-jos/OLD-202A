@@ -7,4 +7,18 @@ package common;
 public class Position {
     private float longtitude;
     private float latitude;
+
+    public Position(float longtitude, float latitude) {
+        this.longtitude = longtitude;
+        this.latitude = latitude;
+    }
+
+
+    public float getLongtitude() {
+        return longtitude;
+    }
+
+    public float getLatitude() {
+        return latitude;
+    }
 }

@@ -1,6 +1,9 @@
 package person;
 
 import common.Position;
+import order.Order;
+
+import java.util.List;
 
 /**
  * @author Joseph Assayag
@@ -9,4 +12,8 @@ import common.Position;
 public class Courier extends Person{
     private boolean isAvailable;
     private Position currentPosition;
+    private Partner partner;
+    private List<DeliveryPointEvent> deliveryPointEvents;
+    private List<Order> orders;
+
 }

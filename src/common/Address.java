@@ -10,4 +10,8 @@ public class Address {
     private String nummer;
     private Position position;
     private String country;
+
+    public Position getPosition() {
+        return position;
+    }
 }
